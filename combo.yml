@@ -1,0 +1,5 @@
+# Generated from the combos section of randomcontainers/whisper-cpp package.yml by randomcontainers/ci.
+# Do not edit; change package.yml in randomcontainers/whisper-cpp instead.
+name: whisper-cpp-ffmpeg
+owner: whisper-cpp
+with: [ffmpeg]
