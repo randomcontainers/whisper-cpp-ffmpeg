@@ -12,7 +12,7 @@ These are unofficial builds, not affiliated with or endorsed by the upstream pro
 docker run --rm --user "$(id -u):$(id -g)" -v "$PWD:/work" ghcr.io/randomcontainers/whisper-cpp-ffmpeg -m models/ggml-base.en.bin -f input.wav
 ```
 
-The same images can also be pulled as `randomcontainers.com/whisper-cpp-ffmpeg`. The examples in the [whisper-cpp README](https://github.com/randomcontainers/whisper-cpp#readme) work with this image too.
+The examples in the [whisper-cpp README](https://github.com/randomcontainers/whisper-cpp#readme) work with this image too.
 
 ## Tags
 
