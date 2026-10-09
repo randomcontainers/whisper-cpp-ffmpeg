@@ -47,7 +47,7 @@ The working directory is `/work`. The image runs as UID 1000, and any other UID 
 | Package | License | Repository |
 |---|---|---|
 | [whisper.cpp](https://github.com/ggml-org/whisper.cpp) | `MIT AND (MIT-0 OR Unlicense)` | [randomcontainers/whisper-cpp](https://github.com/randomcontainers/whisper-cpp) |
-| [FFmpeg](https://ffmpeg.org/) | `GPL-3.0-or-later` | [randomcontainers/ffmpeg](https://github.com/randomcontainers/ffmpeg) |
+| [FFmpeg](https://ffmpeg.org/) | `GPL-3.0-or-later AND MPL-2.0 AND BSD-3-Clause AND Zlib AND Unlicense` | [randomcontainers/ffmpeg](https://github.com/randomcontainers/ffmpeg) |
 
 ## Verifying
 
@@ -66,7 +66,7 @@ The images are rebuilt when a new image of a package above is published, for exa
 
 ## Licenses
 
-The image contents are licensed under `(MIT AND (MIT-0 OR Unlicense)) AND GPL-3.0-or-later`. The version of each package is in `/usr/local/share/randomcontainers/<package>/version` and its license files are in `/usr/local/share/randomcontainers/<package>/licenses/`.
+The image contents are licensed under `(MIT AND (MIT-0 OR Unlicense)) AND GPL-3.0-or-later AND MPL-2.0 AND BSD-3-Clause AND Zlib AND Unlicense`. The version of each package is in `/usr/local/share/randomcontainers/<package>/version` and its license files are in `/usr/local/share/randomcontainers/<package>/licenses/`.
 
 Corresponding source:
 
